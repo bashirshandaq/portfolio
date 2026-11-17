@@ -122,16 +122,19 @@ footer{padding:28px 0;color:var(--muted);font-size:13px}
  </section>
  <section id="projects">
   <div class="wrap">
-   <div class="section-head"><div><div class="kicker" data-ar="02 — أعمال مختارة" data-en="02 — SELECTED WORK">02 — أعمال مختارة</div><h2 data-ar="مشاريع أبنيها." data-en="Things I'm building.">مشاريع أبنيها.</h2></div><p class="section-desc" data-ar="أنظمة وتطبيقات تعالج احتياجات واقعية، مع الاهتمام بالتجربة والتنظيم وقابلية التطوير." data-en="Systems and applications shaped around real needs, with attention to experience, structure and maintainability.">أنظمة وتطبيقات تعالج احتياجات واقعية، مع الاهتمام بالتجربة والتنظيم وقابلية التطوير.</p></div>
-   <div class="project-grid">
-    <article class="project"><div class="project-no">PROJECT / 01</div><h3 data-ar="نظام الباتونيا" data-en="Albatonia Management System">نظام الباتونيا</h3><p data-ar="منظومة لحجز وإدارة قاعة مناسبات، تشمل الحجوزات والمدفوعات والخدمات والأدوات الإدارية. يجري العمل على توسيع التجربة لتشمل تطبيق أندرويد." data-en="A booking and administration system for an event hall, covering reservations, payments, services and admin workflows. Android app work is in progress.">منظومة لحجز وإدارة قاعة مناسبات، تشمل الحجوزات والمدفوعات والخدمات والأدوات الإدارية. يجري العمل على توسيع التجربة لتشمل تطبيق أندرويد.</p><div class="tags"><span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">JavaScript</span><span class="tag" data-ar="قيد التطوير" data-en="In development">قيد التطوير</span></div></article>
-    <article class="project"><div class="project-no">PROJECT / 02</div><h3 data-ar="مكتبة إلكترونية" data-en="Digital Library">مكتبة إلكترونية</h3><p data-ar="مشروع مكتبة إلكترونية يعتمد على PHP وMySQL لتنظيم المحتوى وتقديمه من خلال واجهة ويب." data-en="A digital library project using PHP and MySQL to organize and present content through a web interface.">مشروع مكتبة إلكترونية يعتمد على PHP وMySQL لتنظيم المحتوى وتقديمه من خلال واجهة ويب.</p><div class="tags"><span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">Web</span></div></article>
-    <article class="project"><div class="project-no">PROJECT / 03</div><h3 data-ar="نظام إدارة المدارس" data-en="School Management System">نظام إدارة المدارس</h3><p data-ar="مشروع يركز على توظيف تقنيات الويب وASP.NET في بناء وظائف إدارية تخدم البيئة المدرسية." data-en="A project exploring web technologies and ASP.NET to support administrative workflows in a school environment.">مشروع يركز على توظيف تقنيات الويب وASP.NET في بناء وظائف إدارية تخدم البيئة المدرسية.</p><div class="tags"><span class="tag">ASP.NET</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div></article>
-    <article class="project"><div class="project-no">PROJECT / 04</div><h3 data-ar="مشروع التخرج — ERPNext" data-en="Graduation Project — ERPNext">مشروع التخرج — ERPNext</h3><p data-ar="مشروع تخرج يرتبط بمنصة ERPNext وتخطيط موارد المؤسسة، مع التركيز على فهم ترابط العمليات والبيانات." data-en="A graduation project involving ERPNext and enterprise resource planning, with a focus on connected business processes and data.">مشروع تخرج يرتبط بمنصة ERPNext وتخطيط موارد المؤسسة، مع التركيز على فهم ترابط العمليات والبيانات.</p><div class="tags"><span class="tag">ERPNext</span><span class="tag">ERP</span></div></article>
-   </div>
+    <div class="section-head">
+      <div>
+        <div class="kicker" data-ar="02 — أعمال مختارة" data-en="02 — SELECTED WORK">02 — أعمال مختارة</div>
+        <h2 data-ar="مشاريع أبنيها." data-en="Things I'm building.">مشاريع أبنيها.</h2>
+      </div>
+      <p class="section-desc" data-ar="أنظمة وتطبيقات تعالج احتياجات واقعية، مع الاهتمام بالتجربة والتنظيم وقابلية التطوير." data-en="Systems and applications shaped around real needs, with attention to experience, structure and maintainability.">أنظمة وتطبيقات تعالج احتياجات واقعية، مع الاهتمام بالتجربة والتنظيم وقابلية التطوير.</p>
+    </div>
+    <div class="project-grid" id="managedProjects">
+      <p id="projectsStatus" data-status-ar="جارٍ تحميل المشاريع المنشورة..." data-status-en="Loading published projects...">جارٍ تحميل المشاريع المنشورة...</p>
+    </div>
   </div>
- </section>
- <section id="skills">
+</section>
+<section id="skills">
   <div class="wrap">
    <div class="section-head"><div><div class="kicker" data-ar="03 — أدواتي" data-en="03 — TOOLKIT">03 — أدواتي</div><h2 data-ar="أدوات لحل المشكلات." data-en="Tools for solving problems.">أدوات لحل المشكلات.</h2></div><p class="section-desc" data-ar="قائمة بالتقنيات التي أتعامل معها، دون نسب تقييم غير موثقة." data-en="Technologies I work with, without arbitrary skill percentages.">قائمة بالتقنيات التي أتعامل معها، دون نسب تقييم غير موثقة.</p></div>
    <div class="skills"><span class="skill">HTML5</span><span class="skill">CSS3</span><span class="skill">JavaScript</span><span class="skill">PHP</span><span class="skill">MySQL</span><span class="skill">Oracle</span><span class="skill">C / C++</span><span class="skill">C#</span><span class="skill">ASP.NET</span><span class="skill">Python</span><span class="skill">AJAX</span><span class="skill">Git &amp; GitHub</span><span class="skill">Responsive UI</span><span class="skill">Termux</span></div>
@@ -171,22 +174,133 @@ footer{padding:28px 0;color:var(--muted);font-size:13px}
 <script>
 (function(){
  const button=document.getElementById('langToggle');
- const nodes=document.querySelectorAll('[data-ar][data-en]');
+ const api='https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/api/projects.php';
+
  function setLanguage(lang){
   const en=lang==='en';
   document.documentElement.lang=lang;
   document.documentElement.dir=en?'ltr':'rtl';
   document.body.dir=en?'ltr':'rtl';
-  nodes.forEach(el=>{el.innerHTML=en?el.dataset.en:el.dataset.ar;});
+
+  document.querySelectorAll('[data-ar][data-en]').forEach(el=>{
+   el.innerHTML=en?el.dataset.en:el.dataset.ar;
+  });
+
+  document.querySelectorAll('[data-project-ar][data-project-en]').forEach(el=>{
+   el.textContent=en?el.dataset.projectEn:el.dataset.projectAr;
+  });
+
+  const status=document.getElementById('projectsStatus');
+  if(status) status.textContent=en?status.dataset.statusEn:status.dataset.statusAr;
+
   button.textContent=en?'العربية':'English';
   button.setAttribute('aria-label',en?'Switch to Arabic':'التبديل إلى الإنجليزية');
   try{localStorage.setItem('bashir-portfolio-language',lang);}catch(e){}
  }
- button.addEventListener('click',()=>setLanguage(document.documentElement.lang==='ar'?'en':'ar'));
+
+ button.addEventListener('click',()=>{
+  setLanguage(document.documentElement.lang==='ar'?'en':'ar');
+ });
+
  let preferred='ar';
  try{preferred=localStorage.getItem('bashir-portfolio-language')||'ar';}catch(e){}
  setLanguage(preferred);
  document.getElementById('year').textContent=new Date().getFullYear();
+
+ function safeUrl(value){
+  if(!value) return null;
+  try{
+   const url=new URL(value);
+   return (url.protocol==='https:'||url.protocol==='http:')?url.href:null;
+  }catch(e){return null;}
+ }
+
+ function addText(parent,tag,className,ar,en){
+  const el=document.createElement(tag);
+  if(className) el.className=className;
+  el.dataset.projectAr=ar||'';
+  el.dataset.projectEn=en||'';
+  el.textContent=document.documentElement.lang==='en'?(en||''):(ar||'');
+  parent.appendChild(el);
+  return el;
+ }
+
+ async function loadProjects(){
+  const grid=document.getElementById('managedProjects');
+  const status=document.getElementById('projectsStatus');
+  try{
+   const response=await fetch(api,{method:'GET',mode:'cors',cache:'no-store'});
+   if(!response.ok) throw new Error('HTTP '+response.status);
+   const result=await response.json();
+   if(!result.success||!Array.isArray(result.data)) throw new Error('Invalid API response');
+
+   if(result.data.length===0){
+    status.dataset.statusAr='لا توجد مشاريع منشورة حاليًا. أضف مشروعًا وانشره من لوحة الإدارة.';
+    status.dataset.statusEn='No published projects yet. Add and publish a project from the management panel.';
+    setLanguage(document.documentElement.lang);
+    return;
+   }
+
+   grid.replaceChildren();
+   result.data.forEach((item,index)=>{
+    const card=document.createElement('article');
+    card.className='project';
+
+    const number=document.createElement('div');
+    number.className='project-no';
+    number.textContent='PROJECT / '+String(index+1).padStart(2,'0');
+    card.appendChild(number);
+
+    const arTitle=item.title?.ar||item.title?.en||'';
+    const enTitle=item.title?.en||item.title?.ar||'';
+    const arDesc=item.description?.ar||item.description?.en||'';
+    const enDesc=item.description?.en||item.description?.ar||'';
+
+    addText(card,'h3','',arTitle,enTitle);
+    addText(card,'p','',arDesc,enDesc);
+
+    if(item.image){
+     const image=document.createElement('img');
+     image.src=item.image;
+     image.alt=arTitle;
+     image.loading='lazy';
+     image.style.cssText='width:100%;max-height:190px;object-fit:cover;border-radius:4px;margin-top:12px';
+     card.appendChild(image);
+    }
+
+    const links=document.createElement('div');
+    links.className='tags';
+    const demo=safeUrl(item.demo_url);
+    const github=safeUrl(item.github_url);
+    if(demo){
+     const a=document.createElement('a');
+     a.className='tag';a.href=demo;a.target='_blank';a.rel='noopener noreferrer';
+     a.textContent=document.documentElement.lang==='en'?'Live Demo':'معاينة المشروع';
+     a.dataset.linkAr='معاينة المشروع';a.dataset.linkEn='Live Demo';
+     links.appendChild(a);
+    }
+    if(github){
+     const a=document.createElement('a');
+     a.className='tag';a.href=github;a.target='_blank';a.rel='noopener noreferrer';
+     a.textContent='GitHub';
+     links.appendChild(a);
+    }
+    if(links.childElementCount) card.appendChild(links);
+    grid.appendChild(card);
+   });
+
+   status.remove();
+   grid.querySelectorAll('[data-link-ar]').forEach(a=>{
+    a.textContent=document.documentElement.lang==='en'?a.dataset.linkEn:a.dataset.linkAr;
+   });
+  }catch(error){
+   status.dataset.statusAr='تعذر تحميل المشاريع الآن. يرجى المحاولة لاحقًا.';
+   status.dataset.statusEn='Projects could not be loaded. Please try again later.';
+   setLanguage(document.documentElement.lang);
+  }
+ }
+
+ loadProjects();
 })();
 </script>
 </body>
