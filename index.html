@@ -283,7 +283,7 @@ footer{padding:28px 0;color:var(--muted);font-size:13px}
     }else{
      const placeholder=document.createElement('div');
      placeholder.className='project-image-placeholder';
-     placeholder.textContent='PROJECT PREVIEW';
+     placeholder.dataset.ar='معاينة المشروع'; placeholder.dataset.en='PROJECT PREVIEW'; placeholder.textContent=document.documentElement.lang==='en'?'PROJECT PREVIEW':'معاينة المشروع';
      card.appendChild(placeholder);
     }
 
