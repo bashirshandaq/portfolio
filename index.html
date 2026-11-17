@@ -294,8 +294,9 @@ footer{padding:28px 0;color:var(--muted);font-size:13px}
     a.textContent=document.documentElement.lang==='en'?a.dataset.linkEn:a.dataset.linkAr;
    });
   }catch(error){
-   status.dataset.statusAr='تعذر تحميل المشاريع الآن. يرجى المحاولة لاحقًا.';
-   status.dataset.statusEn='Projects could not be loaded. Please try again later.';
+   const detail=error&&error.message?error.message:String(error);
+   status.dataset.statusAr='تعذر تحميل المشاريع: '+detail;
+   status.dataset.statusEn='Projects could not be loaded: '+detail;
    setLanguage(document.documentElement.lang);
   }
  }
