@@ -1,6 +1,6 @@
 {
     "success": true,
-    "count": 3,
+    "count": 2,
     "data": [
         {
             "slug": "albatoniahall",
@@ -28,20 +28,6 @@
             },
             "image": null,
             "demo_url": "walletsystem.free.nf",
-            "github_url": ""
-        },
-        {
-            "slug": "hospital-system",
-            "title": {
-                "ar": "نظام مستشفى 🏥",
-                "en": "hospital system"
-            },
-            "description": {
-                "ar": "نظام مستشفى متكامل",
-                "en": "Administrative, service, accounting, and human resources system"
-            },
-            "image": null,
-            "demo_url": "hospital_management.free.nf",
             "github_url": ""
         }
     ]
