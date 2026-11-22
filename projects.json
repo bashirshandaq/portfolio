@@ -1,7 +1,21 @@
 {
     "success": true,
-    "count": 3,
+    "count": 4,
     "data": [
+        {
+            "slug": "military-warehouse-system",
+            "title": {
+                "ar": "نظام إدارة المخازن العسكري المتكامل",
+                "en": "Military Warehouse Management System"
+            },
+            "description": {
+                "ar": "نظام متكامل لإدارة المخازن العسكرية والأصناف والأصول والعهد والأفراد وحركة المخزون والرقابة والجرد والتقارير.",
+                "en": "An integrated military warehouse management system for inventory, assets, personnel, custody records, stock movements, audits, and reporting."
+            },
+            "image": "https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/uploads/8ec82154b36d3193baebbd52d6385a33.png",
+            "demo_url": "https://military-warehouse.gt.tc/htdocs/login.php",
+            "github_url": ""
+        },
         {
             "slug": "portfolio-projects-manager",
             "title": {
