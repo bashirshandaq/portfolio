@@ -12,6 +12,20 @@
                 "ar": "نظام متكامل لإدارة المخازن العسكرية والأصناف والأصول والعهد والأفراد وحركة المخزون والرقابة والجرد والتقارير.",
                 "en": "An integrated military warehouse management system for inventory, assets, personnel, custody records, stock movements, audits, and reporting."
             },
+            "full_description": {
+                "ar": "منصة إدارية متكاملة لإدارة العمليات اللوجستية والمخزنية، تضم الهيكل التنظيمي ودليل الأفراد والمخازن والأصول والأصناف ومصادر التوريد.\r\nتوفر المنصة إدارة مستندات المخزون والتحويلات والتوريدات والأرصدة، وتتبع العهد الشخصية والمؤقتة، وسجلات التسليم والاستلام ومحاضر المطابقة وإخلاء الطرف.\r\nكما تشمل الجرد والتالف والفاقد والصيانة والإصلاح وطلبات الاحتياج ومركز الموافقات، إضافة إلى التقارير وسجل التدقيق والأرشيف والمرفقات وإدارة المستخدمين والصلاحيات والنسخ الاحتياطي والاستعادة.",
+                "en": "A comprehensive logistics and warehouse management platform featuring organizational structure, personnel records, warehouses, assets, inventory catalogs, suppliers, stock transactions, transfers, and detailed inventory tracking.\r\nThe system also manages temporary and personal custody, handover records, inventory audits, damaged and lost items, maintenance, requisitions, approval workflows, reports, audit logs, document archives, user permissions, and backup management."
+            },
+            "technologies": [
+                {
+                    "slug": "php",
+                    "icon": "PHP",
+                    "name": {
+                        "ar": "PHP",
+                        "en": "PHP"
+                    }
+                }
+            ],
             "image": "https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/uploads/8ec82154b36d3193baebbd52d6385a33.png",
             "demo_url": "https://military-warehouse.gt.tc/htdocs/login.php",
             "github_url": ""
@@ -26,6 +40,20 @@
                 "ar": "لوحة تحكم مستقلة لإدارة مشاريع الموقع الشخصي وتنظيم التصنيفات والتقنيات ومتابعة حالة النشر",
                 "en": "An independent dashboard for managing portfolio projects, categories, technologies, and publication status."
             },
+            "full_description": {
+                "ar": "نظام إداري مستقل لإدارة معرض الأعمال الشخصي، يتيح إضافة المشاريع وتحريرها وتنظيمها، وإدارة التصنيفات والتقنيات، ومتابعة المشاريع المنشورة والمسودات والمشاريع المخفية، مع سلة المحذوفات ومعاينة الموقع.",
+                "en": "A dedicated project management platform for a personal portfolio website. It provides project management, category and technology organization, publication status tracking, trash management, and website preview"
+            },
+            "technologies": [
+                {
+                    "slug": "php",
+                    "icon": "PHP",
+                    "name": {
+                        "ar": "PHP",
+                        "en": "PHP"
+                    }
+                }
+            ],
             "image": "https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/uploads/f01ffc8535a937c760c8ae1b9e2aa583.jpg",
             "demo_url": "https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/login.php",
             "github_url": ""
@@ -40,6 +68,20 @@
                 "ar": "نظام متكامل لإدارة شبكات الإنترنت وبطاقات WiFi والمبيعات والمدفوعات والباقات.",
                 "en": "An integrated platform for managing WiFi vouchers, sales, payments, packages, and network settings."
             },
+            "full_description": {
+                "ar": "منصة إدارية لإدارة خدمات الإنترنت، توفر إدارة بطاقات WiFi ومتابعة المبيعات والمدفوعات والمصروفات والتقارير، مع إعدادات آمنة لأجهزة الشبكة وتجهيز التكامل المستقبلي مع MikroTik.",
+                "en": "A WiFi management platform featuring voucher administration, sales tracking, payment management, expenses, reporting, and secure network device configuration, designed for future MikroTik integration."
+            },
+            "technologies": [
+                {
+                    "slug": "php",
+                    "icon": "PHP",
+                    "name": {
+                        "ar": "PHP",
+                        "en": "PHP"
+                    }
+                }
+            ],
             "image": "https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/uploads/90814add0b53bf8f3cb18ebcec08f499.jpg",
             "demo_url": "https://albatoniahall.free.je/Wifi/public/login.php",
             "github_url": ""
@@ -54,6 +96,20 @@
                 "ar": "نظام إدارة وحجوزات قاعة الباتونيا الكبرى",
                 "en": "Batonia Grand Hall Management and Reservations System"
             },
+            "full_description": {
+                "ar": "نظام إدارة وحجوزات قاعة الباتونيا الكبرى",
+                "en": "Batonia Grand Hall Management and Reservations System"
+            },
+            "technologies": [
+                {
+                    "slug": "php",
+                    "icon": "PHP",
+                    "name": {
+                        "ar": "PHP",
+                        "en": "PHP"
+                    }
+                }
+            ],
             "image": "https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/uploads/a5439690e01034267389471ae4b789ee.png",
             "demo_url": "https://albatoniahall.free.je/admin/admin_login.php",
             "github_url": ""
