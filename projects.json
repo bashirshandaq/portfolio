@@ -1,20 +1,5 @@
 {
     "success": true,
-    "count": 1,
-    "data": [
-        {
-            "slug": "albatoniahall",
-            "title": {
-                "ar": "نظام مخازن",
-                "en": "warehouse system"
-            },
-            "description": {
-                "ar": "نظام مخازن متكامل",
-                "en": "Integrated warehouse system"
-            },
-            "image": "https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/uploads/82dd9a5461786324280d0f2a54df0f4c.png",
-            "demo_url": "https://albatoniahall.free.je/",
-            "github_url": ""
-        }
-    ]
+    "count": 0,
+    "data": []
 }
