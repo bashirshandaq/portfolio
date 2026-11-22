@@ -1,6 +1,6 @@
 {
     "success": true,
-    "count": 4,
+    "count": 3,
     "data": [
         {
             "slug": "albatoniahall",
@@ -42,20 +42,6 @@
             },
             "image": null,
             "demo_url": "hospital_management.free.nf",
-            "github_url": ""
-        },
-        {
-            "slug": "projects-manager-test",
-            "title": {
-                "ar": "نظام إدارة المشاريع",
-                "en": "Projects Manager"
-            },
-            "description": {
-                "ar": "لوحة مستقلة لإدارة مشاريع الموقع الشخصي",
-                "en": "Independent Projects Management System."
-            },
-            "image": null,
-            "demo_url": "",
             "github_url": ""
         }
     ]
