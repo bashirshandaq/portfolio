@@ -1,7 +1,21 @@
 {
     "success": true,
-    "count": 2,
+    "count": 3,
     "data": [
+        {
+            "slug": "portfolio-projects-manager",
+            "title": {
+                "ar": "مدير المشاريع وإدارة معرض الأعمال",
+                "en": "Portfolio Projects Manager"
+            },
+            "description": {
+                "ar": "لوحة تحكم مستقلة لإدارة مشاريع الموقع الشخصي وتنظيم التصنيفات والتقنيات ومتابعة حالة النشر",
+                "en": "An independent dashboard for managing portfolio projects, categories, technologies, and publication status."
+            },
+            "image": "https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/uploads/f01ffc8535a937c760c8ae1b9e2aa583.jpg",
+            "demo_url": "https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/",
+            "github_url": ""
+        },
         {
             "slug": "albatonia-wifi",
             "title": {
