@@ -311,14 +311,54 @@ footer{padding:28px 0;color:var(--muted);font-size:13px}
     details.dataset.en='Project Details';
     details.addEventListener('click',()=>{
      detailsDialog.replaceChildren();
-     const heading=addText(detailsDialog,'h2','',arTitle,enTitle);
-     const description=addText(detailsDialog,'p','',arDesc,enDesc);
+
+     const fullAr=item.full_description?.ar||arDesc;
+     const fullEn=item.full_description?.en||enDesc;
+
+     addText(detailsDialog,'h2','',arTitle,enTitle);
+     addText(detailsDialog,'p','',fullAr,fullEn);
+
+     if(Array.isArray(item.technologies)&&item.technologies.length){
+      addText(detailsDialog,'h3','',
+       'التقنيات المستخدمة','Technologies Used');
+
+      const tags=document.createElement('div');
+      tags.className='tags';
+
+      item.technologies.forEach(technology=>{
+       const arName=technology.name?.ar||technology.slug||'';
+       const enName=technology.name?.en||technology.slug||arName;
+       const tag=addText(tags,'span','tag',
+        (technology.icon?technology.icon+' ':'')+arName,
+        (technology.icon?technology.icon+' ':'')+enName);
+      });
+
+      detailsDialog.appendChild(tags);
+     }
+
+     const github=safeUrl(item.github_url);
+     if(github){
+      const link=document.createElement('a');
+      link.className='project-button';
+      link.href=github;
+      link.target='_blank';
+      link.rel='noopener noreferrer';
+      link.dataset.ar='مستودع GitHub';
+      link.dataset.en='GitHub Repository';
+      link.textContent=document.documentElement.lang==='en'
+       ?link.dataset.en:link.dataset.ar;
+      detailsDialog.appendChild(link);
+     }
+
      const close=document.createElement('button');
      close.type='button';
      close.className='project-button primary';
+     close.dataset.ar='إغلاق';
+     close.dataset.en='Close';
      close.textContent=document.documentElement.lang==='en'?'Close':'إغلاق';
      close.addEventListener('click',()=>detailsDialog.close());
-     detailsDialog.append(heading,description,close);
+
+     detailsDialog.appendChild(close);
      detailsDialog.showModal();
     });
     actions.appendChild(details);
