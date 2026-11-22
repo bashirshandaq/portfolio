@@ -24,6 +24,30 @@
                         "ar": "PHP",
                         "en": "PHP"
                     }
+                },
+                {
+                    "slug": "mysql",
+                    "icon": "MySQL",
+                    "name": {
+                        "ar": "ماي إس كيو إل",
+                        "en": "MySQL"
+                    }
+                },
+                {
+                    "slug": "javascript",
+                    "icon": "JS",
+                    "name": {
+                        "ar": "جافاسكريبت",
+                        "en": "JavaScript"
+                    }
+                },
+                {
+                    "slug": "ajax",
+                    "icon": "AJAX",
+                    "name": {
+                        "ar": "أجاكس",
+                        "en": "AJAX"
+                    }
                 }
             ],
             "image": "https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/uploads/8ec82154b36d3193baebbd52d6385a33.png",
