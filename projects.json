@@ -1,7 +1,21 @@
 {
     "success": true,
-    "count": 1,
+    "count": 2,
     "data": [
+        {
+            "slug": "albatonia-wifi",
+            "title": {
+                "ar": "نظام إدارة شبكة الإنترنت والبطاقات",
+                "en": "Albatonia WiFi Management System"
+            },
+            "description": {
+                "ar": "نظام متكامل لإدارة شبكات الإنترنت وبطاقات WiFi والمبيعات والمدفوعات والباقات.",
+                "en": "An integrated platform for managing WiFi vouchers, sales, payments, packages, and network settings."
+            },
+            "image": "https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/uploads/90814add0b53bf8f3cb18ebcec08f499.jpg",
+            "demo_url": "https://albatoniahall.free.je/Wifi/",
+            "github_url": ""
+        },
         {
             "slug": "albatonia-hall",
             "title": {
