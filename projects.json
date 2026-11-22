@@ -144,6 +144,38 @@
                         "ar": "PHP",
                         "en": "PHP"
                     }
+                },
+                {
+                    "slug": "mysql",
+                    "icon": "MySQL",
+                    "name": {
+                        "ar": "ماي إس كيو إل",
+                        "en": "MySQL"
+                    }
+                },
+                {
+                    "slug": "html5",
+                    "icon": "HTML5",
+                    "name": {
+                        "ar": "إتش تي إم إل 5",
+                        "en": "HTML5"
+                    }
+                },
+                {
+                    "slug": "javascript",
+                    "icon": "JS",
+                    "name": {
+                        "ar": "جافاسكريبت",
+                        "en": "JavaScript"
+                    }
+                },
+                {
+                    "slug": "ajax",
+                    "icon": "AJAX",
+                    "name": {
+                        "ar": "أجاكس",
+                        "en": "AJAX"
+                    }
                 }
             ],
             "image": "https://projects-manager.free.nf/Portfolio-Projects-Manager-Upload/Portfolio-Projects-Manager-Upload/uploads/90814add0b53bf8f3cb18ebcec08f499.jpg",
